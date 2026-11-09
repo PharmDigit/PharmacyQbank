@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PharmacyQBank · Pharmacy Question Banks for PharmD Students &amp; NAPLEX® Review</title>
-<meta name="description" content="Pharmacy practice question banks for PharmD students: dosage forms, pharmacy calculations, drug action, pharmacokinetics, pharmacotherapy and NAPLEX®-style review. 25 free questions per bank, no sign-up.">
+<title>Pharmacy Question Banks &amp; NAPLEX® Practice Questions | PharmacyQBank</title>
+<meta name="description" content="5,400+ pharmacy practice questions with explanations for PharmD students: NAPLEX® review, pharmacy calculations, pharmacokinetics, pharmacotherapy, dosage forms and drug action. Free to start.">
 <link rel="canonical" href="https://www.pharmacyqbank.com/">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -15,10 +15,10 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.pharmacyqbank.com/">
 <meta property="og:site_name" content="PharmacyQBank">
-<meta property="og:title" content="PharmacyQBank · Pharmacy Question Banks for PharmD Students">
-<meta property="og:description" content="Six pharmacy question banks with explanations and performance tracking. 25 free questions per bank, no sign-up.">
+<meta property="og:title" content="PharmacyQBank · Pharmacy Question Banks &amp; NAPLEX® Practice Questions">
+<meta property="og:description" content="5,400+ practice questions in six pharmacy question banks: NAPLEX review, calculations, pharmacokinetics, pharmacotherapy, dosage forms and drug action. 25 free questions per bank, no sign-up.">
 <meta name="twitter:card" content="summary">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"PharmacyQBank","url":"https://www.pharmacyqbank.com/","publisher":{"@type":"Organization","name":"PharmDigit","url":"https://www.pharmdigit.com"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"PharmacyQBank","url":"https://www.pharmacyqbank.com/","description":"Pharmacy question banks and NAPLEX practice questions for PharmD students: pharmacy calculations, pharmacokinetics, pharmacotherapy, dosage forms and principles of drug action.","publisher":{"@type":"Organization","name":"PharmDigit","url":"https://www.pharmdigit.com"}}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -240,6 +240,14 @@ input[type=checkbox]{width:18px;height:18px;accent-color:var(--c);flex:none;marg
 
 .banner{background:var(--flag-soft);color:var(--fg);font-size:13.5px;text-align:center;padding:6px 16px;border-bottom:1px solid var(--line)}
 footer.site{border-top:1px solid var(--line);padding:22px 0 30px;color:var(--muted);font-size:13.5px}
+.seo-about{border-top:1px solid var(--line);padding:26px 0 30px;color:var(--muted);font-size:14.5px;line-height:1.6}
+.seo-about h2{color:var(--fg);font-size:19px;line-height:1.3;margin:0 0 8px}
+.seo-about h3{color:var(--fg);font-size:15px;line-height:1.35;margin:0 0 4px}
+.seo-about p{margin:0 0 10px}
+.seo-about b{color:var(--fg)}
+.seo-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px 28px;margin:18px 0 14px}
+@media (max-width:640px){.seo-grid{grid-template-columns:1fr}}
+.seo-note{font-size:13.5px}
 footer.site a{color:var(--muted)}
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]) :is(.mod .go,.mod .ic,.mtitle .ic,.linkbtn){color:color-mix(in srgb,var(--c) 62%,white)}}
 :root[data-theme="dark"] :is(.mod .go,.mod .ic,.mtitle .ic,.linkbtn){color:color-mix(in srgb,var(--c) 62%,white)}
@@ -331,7 +339,7 @@ footer.site a{color:var(--muted)}
 </style>
 </head>
 <body>
-<div class="banner" id="banner">Design prototype · sign-in and checkout are simulated · progress is saved in this browser only</div>
+<div class="banner hidden" id="banner"></div>
 
 <!-- ============ HOME ============ -->
 <section id="vHome">
@@ -357,6 +365,19 @@ footer.site a{color:var(--muted)}
     </div>
     <div class="homepass" id="homePass"></div>
     <div class="mods" id="mods"></div>
+    <section class="seo-about" aria-labelledby="seoAboutH">
+      <h2 id="seoAboutH">Pharmacy practice questions for PharmD students</h2>
+      <p>PharmacyQBank has six question banks with more than 5,400 pharmacy practice questions, each with an explanation. Build your own practice test by chapter and difficulty, then track your scores. Every bank has 25 free questions, with no sign-up needed. Use it for course exams in P1–P3 and for NAPLEX® review in P4.</p>
+      <div class="seo-grid">
+        <div><h3>NAPLEX® practice questions</h3><p><b>PharmRx</b> has 770 integrated NAPLEX-style questions across the exam’s major areas: cardiovascular, infectious diseases, endocrine, oncology, pharmacy law, compounding, biostatistics, immunizations and more.</p></div>
+        <div><h3>Pharmacy calculations practice questions</h3><p><b>PharmCalculation</b> has 1,280 pharmacy math questions: dosage calculations, BSA dosing, concentrations, dilution and alligation, IV flow rates, reconstitution, electrolytes (mEq) and isotonicity.</p></div>
+        <div><h3>Pharmacokinetics practice problems</h3><p><b>PharmPK</b> has 300 pharmacokinetics questions on clearance, volume of distribution, half-life, IV infusion, steady state, loading doses, bioavailability and therapeutic drug monitoring.</p></div>
+        <div><h3>Pharmacotherapy practice questions</h3><p><b>PharmTherapy</b> has 1,385 disease-state questions on hypertension, heart failure, diabetes, anticoagulation, infectious diseases, HIV, asthma, COPD and more, from recall to case analysis.</p></div>
+        <div><h3>Dosage forms &amp; pharmaceutics questions</h3><p><b>PharmDosage</b> has 1,113 pharmaceutics questions on tablets, capsules, ointments, suppositories, solutions, suspensions, emulsions, sterile products and modified-release dosage forms.</p></div>
+        <div><h3>Principles of drug action &amp; medicinal chemistry questions</h3><p><b>PharmAction</b> has 628 questions on functional groups, acid–base chemistry and ionization, stereochemistry, drug metabolism, receptor theory, dose–response and structure–activity relationships.</p></div>
+      </div>
+      <p class="seo-note">Want lessons, not just questions? Visit <a href="https://www.pharmdigit.com/" target="_blank" rel="noopener">pharmdigit.com</a>. Learn the top 300 drugs with the free <a href="https://www.top300medications.com/" target="_blank" rel="noopener">PharmCrush quiz game</a>. Independent study aid, not affiliated with NABP.</p>
+    </section>
   </main>
   <footer class="site"><div class="wrap">© <a href="https://www.pharmdigit.com" target="_blank" rel="noopener">PharmDigit</a> · <a href="#" data-guide-disc>User guide &amp; disclaimer</a> · Questions or problems: <a href="mailto:support@pharmdigit.com">support@pharmdigit.com</a></div></footer>
 </section>
@@ -947,7 +968,7 @@ function reviewTest(t, wrongOnly){
 function route(){
   clearInterval(tick);
   const h=location.hash.replace(/^#\/?/,'').split('/');
-  if(!h[0]){ document.documentElement.style.removeProperty('--c'); document.documentElement.style.removeProperty('--c-soft'); document.title='PharmacyQBank · Pharmacy Question Banks for PharmD Students & NAPLEX® Review'; show('vHome'); renderHome(); return; }
+  if(!h[0]){ document.documentElement.style.removeProperty('--c'); document.documentElement.style.removeProperty('--c-soft'); document.title='Pharmacy Question Banks & NAPLEX® Practice Questions | PharmacyQBank'; show('vHome'); renderHome(); return; }
   openModule(h[0], h[1]==='performance'?'perf':'practice');
 }
 window.addEventListener('hashchange',route);
@@ -1287,7 +1308,7 @@ document.addEventListener('click',e=>{ const x=e.target.closest('[data-guide-dis
 document.querySelectorAll('[data-signin]').forEach(b=>b.onclick=()=> ST.user ? openAccount() : openSignIn());
 document.querySelectorAll('[data-allpass]').forEach(b=>b.onclick=openAllAccess);
 document.addEventListener('click',e=>{ const x=e.target.closest('[data-extend]'); if(x) openUnlock(x.dataset.extend); });
-if(TEST){ $('banner').textContent='TEST MODE · sign-in and payments are simulated in this browser'; } else $('banner').classList.add('hidden');
+if(TEST){ $('banner').textContent='TEST MODE · sign-in and payments are simulated in this browser'; $('banner').classList.remove('hidden'); } else $('banner').classList.add('hidden');
 refreshAuth();
 API.init().then(handleReturn).catch(e=>{
   console.warn('Firebase failed to load',e); ST.offline=true; refreshAuth();
